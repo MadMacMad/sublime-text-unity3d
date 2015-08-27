@@ -1,6 +1,27 @@
 # sublime-text-3
 ## Using Sublime Text as a script editor with Unity3d
 
+### Project Setup
+* Open your project folder in File > Open Folder Select your Assets/Scripts folder
+* Create your project in Tools > Save Project
+* Edit your project in Toold > Edit Project
+* Ignore .dll and .meta files:
+```
+{
+	"folders":
+	[
+		{
+			"path": "Assets/Scripts",
+			"file_exclude_patterns":
+			[
+				"*.dll",
+				"*.meta"
+			]
+		}
+	]
+}
+```
+
 ### Install Package Control
 
 Click in View > Show Console
