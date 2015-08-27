@@ -15,23 +15,23 @@
 	// Mac OS X: /Applications/Unity/Unity.app/Contents/Frameworks/
 
 	"completesharp_assemblies": [
-		"\\opt\\Unity\\Editor\\Data\\\\Managed\\UnityEngine.dll",
+		"\\opt\\Unity\\Editor\\Data\\Managed\\UnityEngine.dll",
 
-		"\\opt\\Unity\\Editor\\Data\\\\Managed\\UnityEditor.dll",
+		"\\opt\\Unity\\Editor\\Data\\Managed\\UnityEditor.dll",
 
-		"\\opt\\Unity\\Editor\\Data\\\\Mono\\lib\\mono\\unity\\UnityScript.dll",
+		"\\opt\\Unity\\Editor\\Data\\Mono\\lib\\mono\\unity\\UnityScript.dll",
 
-		"\\opt\\Unity\\Editor\\Data\\\\Mono\\lib\\mono\\unity\\System.Core.dll",
+		"\\opt\\Unity\\Editor\\Data\\Mono\\lib\\mono\\unity\\System.Core.dll",
 
-		"\\opt\\Unity\\Editor\\Data\\\\Mono\\lib\\mono\\unity\\System.dll",
+		"\\opt\\Unity\\Editor\\Data\\Mono\\lib\\mono\\unity\\System.dll",
 
-		"\\opt\\Unity\\Editor\\Data\\\\Managed\\nunit.framework.dll",
+		"\\opt\\Unity\\Editor\\Data\\Managed\\nunit.framework.dll",
 
-		"\\opt\\Unity\\Editor\\Data\\\\Mono\\lib\\mono\\unity\\mscorlib.dll",
+		"\\opt\\Unity\\Editor\\Data\\Mono\\lib\\mono\\unity\\mscorlib.dll",
 
-		"\\opt\\Unity\\Editor\\Data\\\\Mono\\lib\\mono\\unity\\System.Core.dll",
+		"\\opt\\Unity\\Editor\\Data\\Mono\\lib\\mono\\unity\\System.Core.dll",
 
-		"\\opt\\Unity\\Editor\\Data\\\\Mono\\lib\\mono\\unity\\System.dll",
+		"\\opt\\Unity\\Editor\\Data\\Mono\\lib\\mono\\unity\\System.dll",
 
 		"${project_path:Library}\\ScriptAssemblies\\Assembly-CSharp.dll",
 
