@@ -62,8 +62,11 @@ Install the following Sublime Text packages by following the instructions on the
 ### Cloning the repository
 
 #### Access the Package Directory
+
 Windows: %APPDATA%\Sublime Text 3\Packages\User
+
 OS X: ~/Library/Application Support/Sublime Text 3/Packages/User/
+
 Linux: ~/.config/sublime-text-3/Packages/User/
 ```
 cd ~/.config/sublime-text-3/Packages/User/
