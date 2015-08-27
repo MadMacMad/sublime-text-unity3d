@@ -1,0 +1,15 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApplySyntax",
+		"C# Snippets",
+		"Package Control",
+		"Unity Completions",
+		"Unity3D",
+		"Unity3D Shader Highlighter and Snippets",
+		"Unity3D Snippets and Completes"
+	]
+}
