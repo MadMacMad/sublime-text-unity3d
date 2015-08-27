@@ -74,7 +74,7 @@ cd ~/.config/sublime-text-3/Packages/User/
 
 #### Clone the Package
 ```
-git clone git@github.com:thicaso/sublime-text-3.git .
+git clone git@github.com:thicaso/sublime-text-unity3d.git .
 ```
 
 ###If you are in windows
