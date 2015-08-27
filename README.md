@@ -48,3 +48,58 @@ cd ~/.config/sublime-text-3/Packages/User/
 ```
 git clone git@github.com:thicaso/sublime-text-3.git .
 ```
+
+###If you are in windows
+Go to Preferences > Setting-User
+
+Comment this line:
+```
+//"completesharp_mono_path": "/Applications/Unity/MonoDevelop.app/Contents/MacOS/bin/MonoDevelop"
+```
+####And modify the path of Unity Editor:
+```
+"folders": [
+...
+], //<- comma required
+...
+"settings": {
+...
+
+//Possible default directory paths for Unity:
+//Windows: C:\Program Files\Unity\Editor\Data\
+//Windows 64-bit: C:\Program Files (x86)\Unity\Editor\Data\
+//Mac OS X: /Applications/Unity/Unity.app/Contents/Frameworks/
+//Linux (default*): \\opt\\Unity\\Editor\\Data\\
+
+"completesharp_assemblies": [
+		"<path-to-Unity-folder>\\Managed\\UnityEngine.dll",
+
+		"<path-to-Unity-folder>\\Managed\\UnityEditor.dll",
+
+		"<path-to-Unity-folder>\\Mono\\lib\\mono\\unity\\UnityScript.dll",
+
+		"<path-to-Unity-folder>\\Mono\\lib\\mono\\unity\\System.Core.dll",
+
+		"<path-to-Unity-folder>\\Mono\\lib\\mono\\unity\\System.dll",
+
+		"<path-to-Unity-folder>\\Managed\\nunit.framework.dll",
+
+		"<path-to-Unity-folder>\\Mono\\lib\\mono\\unity\\mscorlib.dll",
+
+		"<path-to-Unity-folder>\\Mono\\lib\\mono\\unity\\System.Core.dll",
+
+		"<path-to-Unity-folder>\\Mono\\lib\\mono\\unity\\System.dll",
+"${project_path:Library}\\ScriptAssemblies\\Assembly-CSharp.dll",
+
+		"${project_path:Library}\\ScriptAssemblies\\Assembly-CSharp-Editor.dll",
+
+		"${project_path:Library}\\ScriptAssemblies\\Assembly-UnityScript-Editor.dll",
+
+		"${project_path:Library}\\ScriptAssemblies\\Assembly-CSharp-firstpass.dll"
+	],
+
+	"completioncommon_inhibit_sublime_completions": true,
+
+	"completioncommon_shorten_names": true
+}
+```
