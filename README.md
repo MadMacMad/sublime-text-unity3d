@@ -1,6 +1,12 @@
 # sublime-text-3
 ## Using Sublime Text as a script editor with Unity3d
 
+##Kickstart:
+```
+cd %APPDATA%\Sublime Text 3\Packages\User
+git clone git@github.com:thicaso/sublime-text-unity3d.git .
+```
+
 ### Project Setup
 * Open your project folder in File > Open Folder Select your Assets/Scripts folder
 * Create your project in Tools > Save Project
