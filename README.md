@@ -1,5 +1,4 @@
-# sublime-text-3
-## Using Sublime Text as a script editor with Unity3d
+# Using Sublime Text as a script editor with Unity3d
 
 ##Kickstart:
 ```
